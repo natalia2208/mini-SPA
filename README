@@ -1,0 +1,10 @@
+//
+Cree Header.jsx, SearchBar.jsx, CategoryFilter.jsx, RuleList.jsx, RuleCard.jsx, CompliantCounter.jsx, ProgressBar.jsx, Footer.jsx y rules.js
+el header muestra el titulo
+el searchBar ctualiza el estado global query para filtrar las normas en tiempo real.
+CategoryFilter Select para filtrar normas por categoría y actualiza el estado global category.
+RuleList recibe la lista filtrada via props y renderiza múltiples RuleCard.
+RuleCard es una tarjeta reutilizable para una norma la cual incluye, título, categoría, descripción, botón con estado para alternar “pendiente / compliant”, notifica al componente padre mediante onToggle()
+CompliantCounter muestra cuántas normas han sido marcadas como “Echo” del total.
+ProgressBar representación visual del progreso global.
+Footer sección final con información complementaria.
